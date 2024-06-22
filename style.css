@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30%;
+    margin: 80px auto;
+    width: 50%;
+    background-color: #f3f4f6;
+    border-radius: 2rem; 
+}
+
+h1 {
+    margin-top: 6%;
+    background: #959595;
+    background: linear-gradient(to right, #959595 0%, #0D0D0D 46%, #010101 50%, #0A0A0A 53%, #4E4E4E 76%, #383838 87%, #1B1B1B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+
+}
+
+input {
+    margin-top: 3%;
+    width: 30%;
+    height: 2rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    border: 5px solid rgba(243, 23, 152, 1);
+    text-align: center;
+    font-weight: 800;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+
+.mybutton {
+    margin-bottom: 3rem;
+    height: 2.5rem;
+    width: 11rem;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+    color: white;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    /* padding: 15px 45px;   */
+    /* margin: 10px; */
+    border: 0px;
+
+}
+
+.mybutton:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    margin-bottom: 1rem;
+}
+
+
+.ul {
+    font-size: 1.8rem;
+
+}
+
+.del {
+    margin-left: 5px;
+    background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%);
+    padding: 5px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+.btn-grad {
+    margin: 10px;
+}
+
+.del:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+@media(max-width:890px) {
+    .div{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 7rem;
+    /* margin: 80px auto; */
+    width: 80%;
+    background-color: #f3f4f6;
+    border-radius: 2rem; 
+    }
+    h1{
+        font-size: 2rem;
+    }
+
+input {
+    width: 70%;
+    }
+    .mybutton{
+        height: 2rem;
+        width: 6rem;
+    }
+
+    .ul{
+        font-size: 1rem;
+    }
+}
