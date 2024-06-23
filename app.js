@@ -30,6 +30,7 @@ btn.addEventListener("click",function(){
 // }
 
 ul.addEventListener("click", function(event){
+    event.preventDefault();
     // console.log(event.target);
     // console.dir(event.target.nodeName);
     // console.log("button clicked");
